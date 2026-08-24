@@ -1,0 +1,18 @@
+{
+  "policy": "Only files listed here may be committed under public brand, manufacturer, or screenshot directories.",
+  "assets": [
+    { "path": "public/favicon.png", "category": "brand", "owner": "HailKing Professionals", "width": 64, "height": 64, "sha256": "8f9df19c6a277de9d522677bbd434e8bd8ef50d7a9ec2fae7960740d12a65b38" },
+    { "path": "public/brand/hailking-footer.png", "category": "brand", "owner": "HailKing Professionals", "width": 1212, "height": 451, "sha256": "6a4d67ffab87cf2e5046ed2c1705d251e6f53ec1a5eecca8df1011d94aa80b4d" },
+    { "path": "public/brand/hailking-primary.webp", "category": "brand", "owner": "HailKing Professionals", "width": 900, "height": 483, "sha256": "43f5bebf33c5cc151b9de00df7e959ab1efd2b86ade5fb1baf0aac6a44d29ef8" },
+    { "path": "public/manufacturers/atlas.png", "category": "manufacturer-mark", "owner": "Atlas", "width": 500, "height": 287, "sha256": "aa991c0d2f95df7edcf005d64225bdaa09bed6fd5a9e1ce5c6465943646b20a7" },
+    { "path": "public/manufacturers/certainteed.png", "category": "manufacturer-mark", "owner": "CertainTeed", "width": 500, "height": 287, "sha256": "174ea458750c9ce2f0ef9a8bafeb4b8bc94b90b83e230b2502bd1f7f7810d284" },
+    { "path": "public/manufacturers/gaf.png", "category": "manufacturer-mark", "owner": "GAF", "width": 1200, "height": 675, "sha256": "5c56b0a716ead8a014f65d7deed6dcca13ef398c41ea984df955800a56eaff00" },
+    { "path": "public/manufacturers/iko.png", "category": "manufacturer-mark", "owner": "IKO", "width": 500, "height": 287, "sha256": "6067644e33e608715a2a8ea8d9d872a23dfc45d1618341fc639e2ab04d62a962" },
+    { "path": "public/manufacturers/malarkey.png", "category": "manufacturer-mark", "owner": "Malarkey Roofing Products", "width": 1200, "height": 374, "sha256": "a65dcd932ff31dd28c0a7ee850ce7462ff0261190a61c03b196aa370d0e16527" },
+    { "path": "public/manufacturers/mule-hide.png", "category": "manufacturer-mark", "owner": "Mule-Hide Products", "width": 500, "height": 287, "sha256": "ec48eb32418833ceb9dc35c5715e1ddbf52fcb8ce001887c57445e32ea1a986e" },
+    { "path": "public/manufacturers/owens-corning.png", "category": "manufacturer-mark", "owner": "Owens Corning", "width": 420, "height": 176, "sha256": "d63fb0e752fdcbbf0978162ee848ce64a8cece2828f348a0c7fb933d601720be" },
+    { "path": "public/manufacturers/tamko.png", "category": "manufacturer-mark", "owner": "TAMKO Building Products", "width": 1000, "height": 446, "sha256": "7dc935970295a783f42b3418959c19be27bf61e06f28a1c83d0b2811af05746e" },
+    { "path": "public/screenshots/hailking-home-desktop-1440x900.png", "category": "public-web-capture", "owner": "HailKing Professionals", "width": 1440, "height": 900, "captured": "2026-08-23", "source": "https://hailkingpros.com/", "sha256": "e0efad7f66414a4437f9a81436a0ce5334f0faced49a3cd114a26e66a49b0c99" },
+    { "path": "public/screenshots/hailking-home-mobile-390x844.png", "category": "public-web-capture", "owner": "HailKing Professionals", "width": 390, "height": 844, "captured": "2026-08-23", "source": "https://hailkingpros.com/", "sha256": "0b0b677128a3692a151de967b9ce030c6647eae3f4aea50a094766ab16a35ebb" }
+  ]
+}

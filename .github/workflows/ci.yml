@@ -33,6 +33,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Check publication boundary
+        run: npm run safety
+
       - name: Build static export
         run: npm run build
 
