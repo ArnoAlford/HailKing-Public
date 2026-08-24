@@ -14,7 +14,7 @@ const excluded = [
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
       <section className="hero" aria-labelledby="hero-title">
         <div className="shell hero-grid">
           <div className="hero-copy">
@@ -93,9 +93,24 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="page-section showcase-links" aria-labelledby="showcase-title">
+        <div className="shell">
+          <p className="section-number">02 / Explore</p>
+          <div className="section-heading">
+            <h2 id="showcase-title">Useful enough to study. Safe enough to share.</h2>
+            <p>Explore the approved visual system, clearly fictional page compositions, and limited production references.</p>
+          </div>
+          <div className="link-card-grid">
+            <a href="/design-system/"><span>Design system</span><strong>Approved marks and foundations →</strong></a>
+            <a href="/examples/residential/"><span>Synthetic examples</span><strong>Presentation patterns without real data →</strong></a>
+            <a href="/production-reference/"><span>Production reference</span><strong>Public homepage captures →</strong></a>
+          </div>
+        </div>
+      </section>
+
       <section className="scope" id="scope" aria-labelledby="scope-title">
         <div className="shell">
-          <p className="section-number light">02 / Public scope</p>
+          <p className="section-number light">03 / Public scope</p>
           <div className="section-heading light-heading">
             <h2 id="scope-title">The boundary is part of the codebase.</h2>
             <p>
@@ -125,14 +140,6 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <div className="shell footer-row">
-          <p>HailKing Professionals public codebase</p>
-          <a href="https://hailkingpros.com/" rel="noopener noreferrer">
-            hailkingpros.com
-          </a>
-        </div>
-      </footer>
     </main>
   );
 }

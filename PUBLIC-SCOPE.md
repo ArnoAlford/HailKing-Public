@@ -8,6 +8,7 @@ This repository follows a deny-by-default publication policy: when ownership, se
 - Generic documentation about local development and the public repository boundary.
 - Public business links already intended for broad distribution.
 - Dependencies required to lint and statically build the project.
+- Brand marks, manufacturer marks, and public-page captures only when explicitly approved, metadata-cleaned, and integrity-locked in `public/asset-manifest.json`.
 
 ## Prohibited
 
@@ -18,7 +19,7 @@ This repository follows a deny-by-default publication policy: when ownership, se
 - Production source, route handlers, server actions, webhooks, dashboards, authentication, rate limits, infrastructure topology, runbooks, rollback procedures, or incident evidence.
 - Advertising strategy, budgets, bids, spend, conversion data, search terms, negative keywords, campaign structure, or mutation tooling.
 - Images, video, audio, copy, reviews, logos, or trademarks without documented authorization for repository redistribution.
-- Files or history copied from the private production repository.
+- Files or history copied from the private production repository, except individually authorized visual assets that are re-encoded and recorded in the asset manifest.
 
 ## Change review
 
@@ -27,7 +28,7 @@ Before committing:
 1. Confirm the change is necessary for the public showcase.
 2. Confirm every value and asset is intended for unlimited public access.
 3. Search the complete staged diff for secrets, identifiers, personal data, and metadata.
-4. Run `npm run lint`, `npm run build`, and `npm audit`.
+4. Run `npm run safety`, `npm run lint`, `npm run build`, and `npm audit`.
 5. Prefer deletion over redaction when context is unnecessary.
 
 If any check is uncertain, do not merge the change.
